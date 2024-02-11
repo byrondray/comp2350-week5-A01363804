@@ -3,7 +3,7 @@ const database = include('/databaseConnection');
 
 async function getAllTodos() {
 	let sqlQuery = `
-		SELECT * FROM todo
+		SELECT * FROM web_user
 	`;
 	
 	try {
